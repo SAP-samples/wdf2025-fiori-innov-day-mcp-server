@@ -29,32 +29,38 @@
 
 ## Troubleshoot
 
-1. Custom section not visible. Execute prompt 
+1. No `Edit` button on travel object page.
+      Execute prompt 
+      ```
+      Enable draft mode for travel entity
+      ```
+
+2. Custom section not visible. Execute prompt 
       ```
       Travel notes with RichTextEditor not visible
       ```
 
-2. No data in custom section. Execute prompt 
+3. No data in custom section. Execute prompt 
       ```
       Add mock data for travel notes
       ```
 
-3. Travel notes is not a Rich Text Editor. Execute below prompt and verify `RichTextEditorWithMetadata` code in the xml fragment
+4. Travel notes is not a Rich Text Editor. Execute below prompt and verify `RichTextEditorWithMetadata` code in the xml fragment
       ```
       use "RichTextEditorWithMetadata" building block for travel notes. use fiori mcp
       ```
 
       ![notrichtext](./images/not-rich-text.png)
 
-      for example
+      Verify that the Rich Text Editor building block element has been applied in the code by AI as shown below:
       ```
             <macros:RichTextEditorWithMetadata
                   id="travelNotesEditor"
                   metaPath="TravelNotes" />
-      ```
 
-4. No `Edit` button on travel object page.
-      Execute prompt 
-      ```
-      Enable draft mode for travel entity
+            OR
+
+            <macros:RichTextEditor
+                  id="travelNotesEditor"
+                  value="{TravelNotes}" />
       ```

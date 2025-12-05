@@ -41,8 +41,6 @@
 
 ## Troubleshoot
 
-## Troubleshoot
-
 1) Update the Object Page Title and Description based on the image. Use the following prompt:  
 ```
 Set the travel description as the object page title and display the travel title below it.
