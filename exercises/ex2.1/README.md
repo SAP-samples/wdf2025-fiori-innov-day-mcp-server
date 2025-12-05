@@ -45,7 +45,7 @@
       Add mock data for travel notes
       ```
 
-4. Travel notes is not a Rich Text Editor. Execute below prompt and verify `RichTextEditorWithMetadata` code in the xml fragment
+4. Travel notes is not a Rich Text Editor. Execute below prompt and verify code in the xml fragment
       ```
       use "RichTextEditorWithMetadata" building block for travel notes. use fiori mcp
       ```

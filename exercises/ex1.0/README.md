@@ -32,7 +32,7 @@
     ![autoapprove task](./images/autoapprove-task.png)
 
     **If you face terminal issue as shown below**
-    - Cline remains pending and commands (such as `npm install`) are not executed in the VS Code terminal.
+    - Cline remains pending and commands (such as `npm install`) are not executed in the SBAS terminal.
     
     Solution: Toggle between **Act** and **Plan** mode, then click `Resume Task`.
 
