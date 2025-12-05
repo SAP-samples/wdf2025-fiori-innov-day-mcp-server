@@ -6,7 +6,9 @@ As a particpant of the hands-on, you should already be setup with access to the 
 
 Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
-<span style="color:red">**NOTE: BAS AI is only supported on Chrome. Please ensure you use the Chrome Browser.** </span>
+Enter SBAS login credentials provided to you during the hands-on.
+
+<img src="./images/ex0img23.png" alt="Cline browser" width="70%"/>
 
 ## Accessing the Dev Space Manager
 

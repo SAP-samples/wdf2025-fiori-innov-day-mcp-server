@@ -44,9 +44,6 @@ We are using Cline as AI client within VSCode and Anthropic claude-4-sonnet LLM 
 
 5. Don’t be afraid to retry an exercise or step after restoring to a checkpoint.
 
-> [!NOTE]
-> BAS AI is only supported on Chrome.  Please ensure you use the Chrome Browser.
-
 ## Exercises
 
 Begin your exercises here. At the end of each section, there is a link to continue to the next section.
