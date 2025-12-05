@@ -34,14 +34,23 @@
 7. Cline will execute the implementation plan.
 
 8. After completion, verify the object page in the application preview.
+    - Verify object page header contains both title and description.
+    - Make sure fields in the `General Information` are arranged as per Image.
 
 ![travel object page](./images/travel-objpage.png)
 
 ## Troubleshoot
 
-If the object page looks different and does not match Uploaded object page image, execute prompt 
+## Troubleshoot
+
+1) Update the Object Page Title and Description based on the image. Use the following prompt:  
 ```
-Match @/travel-object-page.png Image with object page
+Set the travel description as the object page title and display the travel title below it.
+```
+
+2) Some fields in the General Information section are missing. Use the following prompt:  
+```
+Arrange or add fields in the General Information section as shown in the image @/travel-object-page.png.
 ```
 
 Continue to - [Exercise 2.1 - Add Custom Section with RichTextEditor Building Block](../ex2.1/README.md)

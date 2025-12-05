@@ -22,12 +22,14 @@ Sl no | Troubleshooting Guide
 ---
 
 ### 2. MCP server connection failure:
-   In the Cline panel, if you notice that no response is received after Cline uses a tool from the MCP server, expand the API Request section to check for any errors related to the MCP tool.
+   In the Cline panel, when there is no response from the MCP server. Restart MCP server.
 
    ![mcp server connection](./images/mcp-tool-failure.png)
 
    - Click on `Manage MCP Servers`
-   - Click on `Retry Connection`.
+   - Click on `Configure`.
+   - Expand both `fiori-mcp` and `cap-mcp`
+   - Click on `Restart Server` 
    - Verify mcp servers are connected again.
 
    ![mcp server refresh](./images/mcp-server-refresh.png)

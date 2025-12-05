@@ -8,7 +8,7 @@ Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
 Enter SBAS login credentials provided to you during the hands-on.
 
-<img src="./images/ex0img23.png" alt="Cline browser" width="70%"/>
+<img src="./images/ex0img23.png" alt="Cline browser" width="60%"/>
 
 ## Accessing the Dev Space Manager
 
@@ -57,25 +57,33 @@ Click **OK** and your window will reload
 
 3. select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
 
-  <img src="images/ex0img8.png" alt="image" width="30%"/>
+  <img src="images/ex0img8.png" alt="image" width="40%"/>
 
 4. Click on `Lets Go` button.
 5. Close all cline notifications.
 
-  <img src="images/ex0img9.png" alt="image" width="30%"/>
+  <img src="images/ex0img9.png" alt="image" width="40%"/>
 
 6. **Collapse Mcp responses**
    - In the **Cline Settings**, Click on the **Feature Settings** section.
    - Check the option `Collapse MCP Responses`
 
-<img src="./images/ex0img14.png" alt="collapse mcp response" width="30%"/>
+<img src="./images/ex0img14.png" alt="collapse mcp response" width="40%"/>
 
 7. **Disable Browser Tool Usage**
 
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
-  <img src="./images/ex0img15.png" alt="Cline browser" width="30%"/>
+  <img src="./images/ex0img15.png" alt="Cline browser" width="40%"/>
+
+## Restart MCP Servers
+
+1. In the Cline panel, Click the **MCP Servers** icon in the top-right corner.
+   - Click on Configure.
+   - Restart both `fiori-mcp` and `cds-mcp` servers
+
+  ![Cline MCP server setting](./images/ex0img24.png)
 
 ## Enable Auto-Approve settings for Cline
 
