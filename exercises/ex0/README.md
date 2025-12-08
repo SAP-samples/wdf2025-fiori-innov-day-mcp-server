@@ -63,11 +63,11 @@ Drag and drop image(travel-object-page.png) to Explorer.
 
 1. Open Cline
 
-  <img src="./images/ex0img22.png" alt="collapse mcp response" width="30%"/>
+  <img src="./images/ex0img22.png" alt="cline" width="30%"/>
 
 2. choose `Use your own API Key`.
 
-  <img src="./images/ex0img7.png" alt="collapse mcp response" width="70%"/>
+  <img src="./images/ex0img7.png" alt="cline choose api key" width="70%"/>
 
 3. select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
 
@@ -89,7 +89,7 @@ Drag and drop image(travel-object-page.png) to Explorer.
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
-  <img src="./images/ex0img15.png" alt="Cline browser" width="40%"/>
+  <img src="./images/ex0img15.png" alt="disable browser" width="40%"/>
 
 ## Restart MCP Servers
 
@@ -104,7 +104,7 @@ Drag and drop image(travel-object-page.png) to Explorer.
   - Enable auto-approval for file modifications from Cline.  
   - Enable auto-approval for MCP server usage. 
 
-  <img src="./images/ex0img21.png" alt="Cline browser" width="40%"/>
+  <img src="./images/ex0img21.png" alt="auto approve" width="40%"/>
 
 ## Summary
 

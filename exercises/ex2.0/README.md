@@ -1,6 +1,12 @@
 ## Modify travel object page based on Image
 
-1. Close the previous task and start a new one. Select **Plan Mode**.
+1. Close previous task.
+
+   <img src="../ex1.0/images/close-task.png" alt="close task" width="60%"/>
+
+2. Select **Plan Mode**.
+
+   ![plan mode](../ex1.0/images/plan-mode.png)
 
 2. Enter the following prompt in the task input:  
    ```

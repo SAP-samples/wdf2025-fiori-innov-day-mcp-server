@@ -1,8 +1,12 @@
 ## Add an analytical column chart to the List Report 
 
-1. Close the previous task.
+1. Close previous task.
 
-2. Start new task. Select **Plan Mode**.
+   <img src="../ex1.0/images/close-task.png" alt="close task" width="60%"/>
+
+2. Select **Plan Mode**.
+
+   ![plan mode](../ex1.0/images/plan-mode.png)
 
 3. Enter prompt in the task input:  
    ```

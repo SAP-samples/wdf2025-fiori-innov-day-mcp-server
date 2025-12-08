@@ -8,7 +8,7 @@ Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
 Enter SBAS login credentials provided to you during the hands-on.
 
-<img src="./images/ex0img23.png" alt="Cline browser" width="70%"/>
+<img src="./images/ex0img23.png" alt="sbas login" width="70%"/>
 
 ## Accessing the Dev Space Manager
 
@@ -79,11 +79,11 @@ Drag and drop image(travel-object-page.png) to Explorer.
 2. Download [claude-dev VSIX](./claude-dev-3.36.0%201.vsix).
 3. Drag and drop the claude-dev VSIX to the Extensions pane. Wait until cline extension is installed.
 
-<img src="./images/ex0img7.png" alt="collapse mcp response" width="70%"/>
+<img src="./images/ex0img7.png" alt="extension pane" width="70%"/>
 
 4. Open Cline.
 
-  <img src="./images/ex0img22.png" alt="collapse mcp response" width="30%"/>
+  <img src="./images/ex0img22.png" alt="Cline" width="30%"/>
 
 5. choose `Use your own API Key`, select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
 
@@ -105,7 +105,7 @@ Drag and drop image(travel-object-page.png) to Explorer.
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
-     <img src="./images/ex0img15.png" alt="Cline browser" width="30%"/>
+     <img src="./images/ex0img15.png" alt="disable browser" width="30%"/>
 
 ## Configure MCP Server
 
@@ -205,7 +205,7 @@ Drag and drop image(travel-object-page.png) to Explorer.
   - Enable auto-approval for file modifications from Cline.  
   - Enable auto-approval for MCP server usage. 
 
-  <img src="./images/ex0img21.png" alt="Cline browser" width="40%"/>
+  <img src="./images/ex0img21.png" alt="auto approve" width="40%"/>
 
 ## Summary
 

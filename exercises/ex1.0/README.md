@@ -59,7 +59,10 @@
 
 1) Application preview does not open automatically in the browser:
 
-   - Close current task and start new task.
+   - Close task.
+
+        <img src="./images/close-task.png" alt="close task" width="60%"/>
+
    - Enter prompt `Preview application`
    - If the issue still exists, then you can start watch script manually.
       - Open the `package.json` file.
