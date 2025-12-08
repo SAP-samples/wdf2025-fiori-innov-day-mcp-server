@@ -70,15 +70,34 @@
 
    ![watch script](./images/watch-script.png)
 
-2) If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number. 
+2) ENOSPC: System limit for number of file watchers reached.
+
+    ![system limit error](./images/system-limit-error.png)
+
+    Add below script to package.json file
+
+    ```
+    "cds": {
+        "watch": {
+            "excludes": [
+                "**/node_modules",
+                "**/target",
+                "db/data.sqlite"
+            ]
+        }
+    }
+    ```
+    ![pacakge json](./images/package-json-entry.png)
+
+3) If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number. 
     
     Note: Ensure that you either use 4004 or the system-assigned port for the preview. Check terminal instances and delete duplicate process running to preview application. 
 
     ![4004 port used](./images/port4004used.png)
 
-3) If the application prompts for authentication, use username: `dummy` and password: `dummy`
+4) If the application prompts for authentication, use username: `dummy` and password: `dummy`
 
-4) In the browser, If your application does not load or displays a blank page:
+5) In the browser, If your application does not load or displays a blank page:
 
 - Open Developer Tools in your browser to check the error message.
   - Windows: Press `F12` or `Ctrl + Shift + I`
@@ -94,8 +113,6 @@
     `Check if the EDM JSON expression ($edmJson) syntax is incorrect and validate it using CAP MCP.`
 - If the issue still exists, enter this prompt:
     `Remove all instances of EDM JSON ($edmJson) expression syntax from the code.`
-
-5) List report does not match with image.
 
 ---
 
