@@ -56,6 +56,20 @@ Click **OK** and your window will reload
 
 ![image](images/ex0img13.png)
 
+Download image [process travels](./images/process-travels.png).
+
+![download](./images/ex0img25.png)
+
+Drag and drop image(process-travels.png) to Explorer.
+
+![explorer](./images/ex0img26.png)
+
+Download image [travel-object-page](./images/travel-object-page.png).
+
+Drag and drop image(travel-object-page.png) to Explorer.
+
+![explorer](./images/ex0img27.png)
+
 ## Configure Cline (AI Client)
 
 1. Go to “Extensions” tab, confirm the text on the screen.

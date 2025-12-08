@@ -1,23 +1,16 @@
 ## Modify travel object page based on Image
 
 1. Close the previous task and start a new one. Select **Plan Mode**.
-2. Download image [travel-object-page](./images/travel-object-page.png).
 
-    ![download](./images/download.png)
-
-3. Drag and drop image(travel-object-page.png) to Explorer.
-
-    ![explorer](./images/explorer.png)
-
-4. Enter the following prompt in the task input:  
+2. Enter the following prompt in the task input:  
    ```
    Modify the travels object page based on Image @/travel-object-page.png
    The object page should include a bookings table section.
    Add mock data for the bookings table.
    ```
-4. Press `Enter` to start the task.
-5. Cline will generate an **Implementation Plan**.
-6. Review the plan once it's ready. 
+3. Press `Enter` to start the task.
+4. Cline will generate an **Implementation Plan**.
+5. Review the plan once it's ready. 
    - Review the header area/section should contain both title and description.
    - Make sure fields in sections are arranged to correct section and subsections.
    - Ensure the structure is one main General Information section with multiple subsections, not three separate sections.
