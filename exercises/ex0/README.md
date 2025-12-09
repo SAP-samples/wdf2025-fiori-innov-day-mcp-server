@@ -57,12 +57,6 @@ Drag and drop image(process-travels.png) to Explorer.
 
 ![explorer](./images/ex0img26.png)
 
-Download image [travel-object-page](./images/travel-object-page.png).
-
-Drag and drop image(travel-object-page.png) to Explorer.
-
-![explorer](./images/ex0img27.png)
-
 ## Configure Cline (AI Client)
 
 1. Open Cline
