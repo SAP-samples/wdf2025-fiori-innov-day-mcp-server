@@ -56,6 +56,10 @@ Click **OK** and your window will reload
 
 ![image](images/ex0img13.png)
 
+Enable Clipboard access to SBAS instance
+
+![image](images/ex0img28.png)
+
 Download image [process travels](./images/process-travels.png).
 
 ![download](./images/ex0img25.png)
